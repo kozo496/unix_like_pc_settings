@@ -1,0 +1,21 @@
+inoremap <silent> jk <ESC>
+
+"ファイルタイプに応じて挙動,色を変える
+syntax on
+filetype plugin on
+filetype indent on
+
+" 行番号の表示
+set number
+
+" syntax
+" syntax enable
+
+" タブ幅
+set tabstop=4
+" 自動インデントのtab幅
+set shiftwidth=4
+
+"自動インデントを使用する
+set smartindent
+set autoindent
